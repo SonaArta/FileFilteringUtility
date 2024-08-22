@@ -1,4 +1,4 @@
-package processing;
+package statistic;
 
 public class FullStatistics extends Statistics {
     private final long elementCount;

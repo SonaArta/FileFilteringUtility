@@ -1,6 +1,7 @@
-package processing;
+package statistic;
 
 import options.StatisticsCollectionMode;
+import processing.FileHandler;
 
 import java.util.DoubleSummaryStatistics;
 import java.util.List;

@@ -1,4 +1,4 @@
-package processing;
+package statistic;
 
 public class StatInfo<T> {
     private long count;

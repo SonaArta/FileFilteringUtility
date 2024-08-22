@@ -21,7 +21,7 @@ public class ReaderFile {
                 dataFile.add(line);
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
         return dataFile;
     }

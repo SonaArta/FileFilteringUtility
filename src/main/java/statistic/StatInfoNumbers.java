@@ -1,4 +1,4 @@
-package processing;
+package statistic;
 
 public class StatInfoNumbers<T> extends StatInfo<T> {
     private T sum;

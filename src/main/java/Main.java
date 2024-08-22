@@ -2,11 +2,9 @@ import io.ReaderFile;
 import io.WriterFile;
 import options.OptionsParser;
 import options.UtilOptions;
-import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.ParseException;
 import processing.FileHandler;
-import processing.Statistics;
-import processing.StatisticsCollector;
+import statistic.StatisticsCollector;
 
 import java.util.List;
 
@@ -31,7 +29,7 @@ public class Main {
             StatisticsCollector statisticsCollector = new StatisticsCollector(fileHandler, utilOptions.getStatisticsCollectionMode());
             statisticsCollector.getStatistics();
         } catch (IllegalArgumentException | ParseException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             optionsParser.printUsage();
         }
     }
