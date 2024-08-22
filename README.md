@@ -6,9 +6,6 @@
 mvn --version
 java --version
 ```
-Конкретно в процессе разработки следующие версии Java и Maven
-* Oracle OpenJDK 17.0.2 - версия Java
-* Maven 3.8.1 - система сборки
 
 Все зависимости указаны в файле [pom.xml](https://github.com/SonaArta/FileFilteringUtility/blob/master/pom.xml)
 
