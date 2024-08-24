@@ -7,7 +7,7 @@ mvn --version
 java --version
 ```
 
-Все зависимости указаны в файле [pom.xml](https://github.com/SonaArta/FileFilteringUtility/blob/master/pom.xml) Для работы с консолью (учёт опций при запуске) использовалась библиотека commons-cli.
+Для работы с консолью (учёт опций при запуске) использовалась библиотека commons-cli. Все зависимости указаны в файле [pom.xml](https://github.com/SonaArta/FileFilteringUtility/blob/master/pom.xml) 
 
 ### Сборка проекта в JAR-файл
 После получения и распаковки репозитория проекта, в командной строке нужно открыть директорию проекта и прописать команду
