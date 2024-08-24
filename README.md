@@ -8,6 +8,7 @@ java --version
 ```
 
 Все зависимости указаны в файле [pom.xml](https://github.com/SonaArta/FileFilteringUtility/blob/master/pom.xml)
+```
 Для работы с консолью (учёт опций при запуске) использовалась библиотека commons-cli.
 
 ### Сборка проекта в JAR-файл
